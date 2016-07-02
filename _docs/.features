@@ -1,0 +1,13 @@
+// MissionSolution (he knows best how to solve what mission)
+    // mission name
+    // need_units
+    // addtional_units
+
+// MissionManager (the mission solver, send units etc.)
+    // 1. watch request units queue
+    // 2. watch mission pool for red missions
+        // ask MissionSolution how to solve
+        // look into available units and send need_units
+            // if not possible, put it in request_units queue
+    // 3. watch mission pool for yellow mission
+        // if 1 and 2 are satisfied -> look into yellow missions with additional_units
