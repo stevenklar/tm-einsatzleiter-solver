@@ -9,7 +9,7 @@
 // ==/UserScript==
 
 (function() {
-    //// @require      https://rawgit.com/notifyjs/notifyjs/master/dist/notify.js
+    //// @require      https://cdn.jsdelivr.net/gh/notifyjs/notifyjs@master/dist/notify.js
 
     var head = document.getElementsByTagName("head")[0];
     var script = document.createElement("script");
